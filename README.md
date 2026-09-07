@@ -75,7 +75,9 @@ Components
               ↓
        AI-based Modules
 ```
-##Project Outputs
+##  Project Outputs
+The analysis generates several CSV files:
+
 ```
 coexpression_network.csv
 connected_components.csv
