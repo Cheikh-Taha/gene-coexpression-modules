@@ -43,3 +43,7 @@ Final expression matrix:
 
 ```text
 1000 genes × 134 samples
+
+## Methodology
+
+The project follows this pipeline:
