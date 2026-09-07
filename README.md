@@ -41,9 +41,38 @@ After preprocessing, the project selects the **1000 most variable genes** from t
 
 Final expression matrix:
 
-```text
+
 1000 genes × 134 samples
 
 ## Methodology
 
 The project follows this pipeline:
+```text
+RNA-seq Expression Data
+          ↓
+Data Preprocessing
+          ↓
+Gene Filtering
+          ↓
+Variance Analysis
+          ↓
+Top Variable Genes
+          ↓
+Pearson Correlation
+          ↓
+Co-Expression Network
+          ↓
+Graph Analysis
+     ↙          ↘
+   DFS        Louvain
+     ↓          ↓
+Connected    Modules
+Components
+              ↓
+         Hub Genes
+              ↓
+     Spectral Clustering
+              ↓
+       AI-based Modules
+
+
