@@ -85,4 +85,34 @@ louvain_modules.csv
 hub_genes.csv
 spectral_clusters.csv
 ````
+##  Project
+Academic project in Bioinformatics and Artificial Intelligence for Precision Medicine.
 
+The project demonstrates how computational biology, graph theory, and machine learning can be combined to investigate the organization of gene expression networks.
+
+```text
+gene-coexpression-modules/
+│
+├── analyse.ipynb
+│
+├── co_expression.py
+├── Spectral_Clustering.py
+│
+├── GSE60424_norm_counts_TPM_GRCh38.p13_NCBI.tsv
+├── Human.GRCh38.p13.annot.tsv
+|
+│
+├── coexpression_network.csv
+├── connected_components.csv
+├── louvain_modules.csv
+├── hub_genes.csv
+│
+├── gene_network_modules.gexf
+│
+├── module1.png
+├── module2.png
+└── module12.png
+|
+|
+└── README.md
+```
