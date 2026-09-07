@@ -74,5 +74,13 @@ Components
      Spectral Clustering
               ↓
        AI-based Modules
-
+```
+##Project Outputs
+```
+coexpression_network.csv
+connected_components.csv
+louvain_modules.csv
+hub_genes.csv
+spectral_clusters.csv
+````
 
