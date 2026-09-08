@@ -1,6 +1,6 @@
 # gene-coexpression-modules
 Detection of gene co-expression modules using graph theory and unsupervised machine learning on the GSE60424 RNA-seq dataset.
-# Gene Co-Expression Module Detection
+# Gene Co-Expression Module  Detection
 
 ##  Overview
 
